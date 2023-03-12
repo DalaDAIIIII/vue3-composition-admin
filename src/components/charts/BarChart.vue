@@ -2,14 +2,14 @@
  * @Description: 柱形图
  * @Author: ZY
  * @Date: 2021-01-14 15:10:30
- * @LastEditors: ZY
- * @LastEditTime: 2021-01-26 10:02:33
+ * @LastEditors: zhouda
+ * @LastEditTime: 2023-03-10 22:34:36
 -->
 <template>
   <div
     :id="id"
     :class="className"
-    :style="{height, widthW}"
+    :style="{height, width}"
   />
 </template>
 

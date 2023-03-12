@@ -2,8 +2,8 @@
  * @Description:
  * @Author: ZY
  * @Date: 2020-12-28 17:18:17
- * @LastEditors: ZY
- * @LastEditTime: 2021-01-20 15:18:42
+ * @LastEditors: zhouda
+ * @LastEditTime: 2023-03-12 20:02:15
  */
 
 export default {
@@ -35,6 +35,8 @@ export default {
     barChart: 'Bar Chart',
     lineChart: 'Line Chart',
     mixedChart: 'Mixed Chart',
+    hotMapChart: 'HotMap Chart',
+    effectScatterChart: 'effectScatter Chart',
     example: 'Example',
     nested: 'Nested Routes',
     menu1: 'Menu 1',

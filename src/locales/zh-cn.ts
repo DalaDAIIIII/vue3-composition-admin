@@ -2,8 +2,8 @@
  * @Description:
  * @Author: ZY
  * @Date: 2020-12-28 17:18:24
- * @LastEditors: ZY
- * @LastEditTime: 2021-01-20 15:18:01
+ * @LastEditors: zhouda
+ * @LastEditTime: 2023-03-12 19:29:09
  */
 
 export default {
@@ -35,6 +35,8 @@ export default {
     barChart: '柱状图表',
     lineChart: '折线图',
     mixedChart: '混合图表',
+    hotMapChart: '热力图',
+    effectScatterChart: '散点图',
     example: '综合实例',
     nested: '路由嵌套',
     menu1: '菜单 1',

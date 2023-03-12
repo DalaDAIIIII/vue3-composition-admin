@@ -2,8 +2,8 @@
  * @Description:
  * @Author: ZY
  * @Date: 2021-01-08 19:21:46
- * @LastEditors: ZY
- * @LastEditTime: 2021-01-21 21:26:26
+ * @LastEditors: zhouda
+ * @LastEditTime: 2023-03-12 19:55:17
  */
 import { RouteRecordRaw } from 'vue-router'
 import Layout from '@/layout/Index.vue'
@@ -52,6 +52,28 @@ const chartsRouter: Array<RouteRecordRaw> = [
         name: 'MixedChartDemo',
         meta: {
           title: 'mixedChart',
+          noCache: true
+        }
+      }, {
+        path: 'hot-map-chart',
+        component: () =>
+          import(
+            /* webpackChunkName: "MixedChat" */ '@/views/charts/HotMapChartDemo.vue'
+          ),
+        name: 'HotMapChartDemo',
+        meta: {
+          title: 'hotMapChart',
+          noCache: true
+        }
+      }, {
+        path: 'effect-scatter-chart',
+        component: () =>
+          import(
+            /* webpackChunkName: "MixedChat" */ '@/views/charts/EffectScatterChartDemo.vue'
+          ),
+        name: 'EffectScatterChartDemo',
+        meta: {
+          title: 'effectScatterChart',
           noCache: true
         }
       }

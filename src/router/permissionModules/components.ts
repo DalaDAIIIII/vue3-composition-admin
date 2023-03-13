@@ -2,8 +2,8 @@
  * @Description:
  * @Autor: WJM
  * @Date: 2021-01-11 15:13:20
- * @LastEditors: WJM
- * @LastEditTime: 2021-01-22 15:07:51
+ * @LastEditors: zhouda
+ * @LastEditTime: 2023-03-12 21:54:41
  */
 import { RouteRecordRaw } from 'vue-router'
 import Layout from '@/layout/Index.vue'
@@ -130,6 +130,18 @@ const componentsRouter: Array<RouteRecordRaw> = [
         name: 'DraggableSelectDemo',
         meta: {
           title: 'draggableSelect',
+          noCache: true
+        }
+      },
+      {
+        path: 'vue-qr',
+        component: () =>
+          import(
+            /* webpackChunkName: "CountTo" */ '@/views/components-demo/VueQrDemo.vue'
+          ),
+        name: 'VueQrDemo',
+        meta: {
+          title: 'vueQr',
           noCache: true
         }
       }

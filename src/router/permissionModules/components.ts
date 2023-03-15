@@ -3,7 +3,7 @@
  * @Autor: WJM
  * @Date: 2021-01-11 15:13:20
  * @LastEditors: zhouda
- * @LastEditTime: 2023-03-12 21:54:41
+ * @LastEditTime: 2023-03-13 20:06:56
  */
 import { RouteRecordRaw } from 'vue-router'
 import Layout from '@/layout/Index.vue'
@@ -142,6 +142,18 @@ const componentsRouter: Array<RouteRecordRaw> = [
         name: 'VueQrDemo',
         meta: {
           title: 'vueQr',
+          noCache: true
+        }
+      },
+      {
+        path: 'image-view',
+        component: () =>
+          import(
+            /* webpackChunkName: "CountTo" */ '@/views/components-demo/ImageViewDemo.vue'
+          ),
+        name: 'ImageViewDemo',
+        meta: {
+          title: 'imageView',
           noCache: true
         }
       }

@@ -1,9 +1,10 @@
 /*
  * @Description:
- * @Autor: ZY
- * @Date: 2020-12-07 10:30:20
- * @LastEditors: ZY
- * @LastEditTime: 2021-01-27 19:20:07
+ * @Version: 1.0
+ * @Author: zhouda
+ * @Date: 2023-03-07 19:36:17
+ * @LastEditors: zhouda
+ * @LastEditTime: 2023-03-14 11:21:47
  */
 import { createApp, Directive } from 'vue'
 import App from './App.vue'

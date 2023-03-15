@@ -2,8 +2,8 @@
  * @Description:配置文件
  * @Author: ZY
  * @Date: 2020-12-07 11:41:22
- * @LastEditors: ZY
- * @LastEditTime: 2021-01-27 15:17:29
+ * @LastEditors: zhouda
+ * @LastEditTime: 2023-03-13 16:49:03
  */
 const { resolve } = require('path')
 const path = require('path')
